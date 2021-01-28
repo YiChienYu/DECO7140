@@ -1,0 +1,781 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+body header{
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #040404;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    padding-top: 5%;
+
+    
+}
+body a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#upper{
+    display: flex;
+    flex-direction: row;
+    width: 74%;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+
+#upper > div{
+    width:35%;
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    max-width: 100%;
+
+    
+}
+#upper ul a:hover{
+    color: #040404;
+    background-color: whitesmoke;
+}
+#picture{
+    margin-bottom: 7%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#upper ul{
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+#upper ul li{
+    padding: 0.25em 0.8em;
+}
+#upper ul li a{
+    padding: 0.25em 0.8em;
+    border-radius: 3px;
+    
+}
+
+#lower{
+    font-size: 1.8em;
+    margin-top:6%;
+    padding-bottom:4%;
+}
+
+.now{
+    color: rgb(230, 172, 0); 
+}
+
+body > article{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    font-size: 1.2em;
+    margin-bottom: 1%;
+
+}
+body  article section{
+    width: 74%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+body article img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.imgandtext{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-between;
+}
+
+
+#ideal p{
+    width: 50%;
+    text-align: justify;
+}
+
+#heart{
+    width: 40%;
+    height: auto;
+}
+
+#doctor{
+    margin-top: 5%;
+}
+#doctor img{
+    width: 30%;
+    height: auto;
+}
+#doctor p{
+    width: 50%;
+    line-height: 1.6em;
+    text-align: justify;
+   
+}
+
+#accomplishment{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+}
+
+#location{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    color: whitesmoke;
+    background-color: #040404;
+    padding: 5% 0 2%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+
+    
+}
+footer article{
+    display: flex;
+    flex-direction: row;
+    width: 74%;
+}
+
+footer > section{
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+    max-width: 100%;
+}
+footer ul{
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+#icons{
+   padding-top:2%;
+   height: auto;
+   width: 80%;
+   display: flex;
+   flex-direction: row;
+   
+}
+
+
+#icons li{
+    width: 15%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    max-width: 100%;
+    list-style-type: none;
+    
+}
+
+footer img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+#annotation{
+    padding-left: 0.7%;
+}
+
+.non-first{
+ margin-left: 5%;
+}
+
+.notfirst{
+    margin-left: 4.5%;
+}
+
+
+footer div{
+    margin-bottom: 5%;
+}
+footer #first{
+    margin-bottom: 2.5%;
+    color:rgb(230, 172, 0);
+}
+footer a:hover{
+    color: red;
+}
+
+
+.appear{
+    animation-name: appear;
+    animation-iteration-count: 1;
+    animation-duration: 2.5s;
+    line-height: 1.6em;
+}
+
+
+@keyframes appear {
+    0%{opacity: 0;}
+
+    100%{opacity: 1;}
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.link ul{
+    width: 74%;
+    display: flex;
+    flex-direction: row;
+    margin: 10em 0 10em;
+    justify-content:space-between;
+    max-width: 100%;
+
+}
+.link li{
+    list-style-type: none;
+    font-size: 1.8em;
+    padding: 1.5em 1em 1.5em;
+    border-radius: 4px;
+    margin: 0 0.5em 0;
+}
+
+.link li:hover{
+    background-color: #040404;
+}
+
+.link li a{
+    color: #040404;
+    text-decoration: none;
+    padding:1em;
+}
+#long{
+    position: fixed;
+    display: flex;
+    background-color: #d9d9d9;
+    opacity: 1;
+    color: white;
+    z-index: 10;
+    width: 0%;
+    height: 0%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    overflow-y: scroll;
+    padding-bottom: 4%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.35), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+#long::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+#long article{
+    background: whitesmoke;
+    color: #040404;
+    margin: 0 15%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-items: flex-start;
+    align-items: center;
+    text-align: start;
+    box-shadow: 0px 6px 46px -2px rgba(0,0,0,0.70), 0 15px 12px rgba(0,0,0,0.40);
+    overflow-y: scroll;
+    
+}
+.longp{
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+#long h1{
+    margin: 0.5% 0 2.5%;
+    font-size: 3em;
+}
+
+#long article::-webkit-scrollbar{
+    display: none;
+}
+
+.x{
+    width: auto;
+    height: auto;
+    text-align: right;
+    margin-right: 3%;
+    align-self: flex-end;
+    max-width: 9%;
+    color: #040404;
+    padding-top: 2%;
+    font-size: 1.3em;
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
+
+.x:hover{
+    color: red;
+}
+
+#long p{
+    margin-bottom: 5%;
+}
+
+
+
+
+#short{
+    position: fixed;
+    display: flex;
+    background-color: #d9d9d9;
+    opacity: 1;
+    color: white;
+    z-index: 10;
+    width: 0%;
+    height: 0%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    overflow-y: scroll;
+    padding-bottom: 4%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.35), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+#short::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+#short article{
+    background: whitesmoke;
+    color: #040404;
+    margin: 0 15%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-items: flex-start;
+    align-items: center;
+    text-align: start;
+    box-shadow: 0px 6px 46px -2px rgba(0,0,0,0.70), 0 15px 12px rgba(0,0,0,0.40);
+    overflow-y: scroll;
+    
+}
+.shortp{
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+#short h1{
+    margin: 0.5% 0 2.5%;
+    font-size: 3em;
+}
+
+#short article::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+#short p{
+    margin-bottom: 5%;
+}
+
+
+
+#cooperation{
+    position: fixed;
+    display: flex;
+    background-color: #d9d9d9;
+    opacity: 1;
+    color: white;
+    z-index: 10;
+    width: 0%;
+    height: 0%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    overflow-y: scroll;
+    padding-bottom: 4%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.35), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+#cooperation::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+#cooperation article{
+    background: whitesmoke;
+    color: #040404;
+    margin: 0 15%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-items: flex-start;
+    align-items: center;
+    text-align: start;
+    box-shadow: 0px 6px 46px -2px rgba(0,0,0,0.70), 0 15px 12px rgba(0,0,0,0.40);
+    overflow-y: scroll;
+    
+}
+.cooperationp{
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+#cooperation h1{
+    margin: 0.5% 0 2.5%;
+    font-size: 3em;
+}
+
+#cooperation article::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+#cooperation p{
+    margin-bottom: 5%;
+}
+
+
+@keyframes left_to_right{
+    0%{width: 0%;
+ }
+
+    100%{width: 100%;
+        
+    }
+}
+
+#reference{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+   
+}
+
+#reference a{
+    padding-top: 1.15em;
+    color: red;
+}
+
+nav iframe{
+    width: 100%;
+    height: 100;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 3%;
+}
+
+nav div{
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2.5%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+nav section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 6%;
+
+}
+nav section h3{
+    margin-bottom: 1.5em;
+    font-size: 1.6em;
+}
+
+nav p{
+    font-size: 1.6em;
+}
+
+#email{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+
+    justify-content: center;
+}
+#email a{
+    padding-left:0.8em;
+    color: blue;
+    font-size: 1.2em;
+}
+
+#emailform{
+    width: 100%;
+    height: auto;
+    z-index: 50;
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+    
+}
+
+#note{
+    color: blue;
+}
+
+#emailform form{
+    margin: 1.5em 0;
+}
+#submitafter{
+    width: 100%;
+    height: 100;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    display: none;
+    z-index: 51;
+}
+
+#copyright{
+    position: fixed;
+    display: flex;
+    background-color: #d9d9d9;
+    opacity: 1;
+    z-index: 10;
+    width: 0%;
+    height: 0%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    overflow-y: scroll;
+    flex-direction: column;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.35), 0 15px 12px rgba(0,0,0,0.22);
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 50;
+    padding-bottom: 4%;
+    
+    
+}
+
+#copyright article{
+    background: whitesmoke;
+    color: #040404;
+    margin: 3% 15%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    box-shadow: 7px 2px 33px 1px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.20);
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    margin-bottom: 3%;
+    
+}
+
+#copyright section{
+    display: flex;
+    flex-direction: row;
+    width: 74%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+#copyright h2{
+    margin: 0.5% 0 2.5%;
+}
+.imgbox{
+    width:15%;
+    height: auto;
+    margin-right: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#copyright section img{
+    width:auto;
+    height: auto;
+    max-width: 100%;
+}
+
+#copyright article::-webkit-scrollbar{
+    display: none;
+}
+
+#copyright::-webkit-scrollbar{
+    display: none;
+}
+
+#copyright > article > section div:nth-child(2){
+    width: 80%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    body{
+        font-size: 0.66em;
+        height: 100%;
+
+    }
+
+    body section{
+        width: auto;
+        max-width: 100%;
+    }
+    
+    #ideal p{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #doctor p{
+        width: 100%;
+        text-align: justify;
+       
+    }
+    #annotation{
+        display: none;
+    }
+
+    .disappear{
+        display: none;
+        z-index: -1;
+    }
+
+    .link{
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .link ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .link ul li{
+        padding: 1.6em 0 1.6em;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        border-radius: 4px;
+        margin: 0.3em 0 0.3em;
+    }
+
+    nav iframe{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 6%;
+    
+    }
+
+    #long article{
+        margin: 0 6%;
+    }
+
+    #short article{
+        margin: 0 6%;
+    }
+
+    #cooperation article{
+        margin: 0 6%;
+    }
+
+
+    #copyright section{
+        margin-bottom: 10%;
+    }
+    
+
+
+    #copyright p{
+        width: 80%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    
+}
+}
